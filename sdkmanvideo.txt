@@ -1,0 +1,40 @@
+Run Bash commands to complete the following tasks:
+print the current working directory (pwd)
+navigate between directories on your computer (cd)
+create new directories (mkdir)
+print a list of files and subdirectories within directories (ls)
+delete files (rm ) and directories (rm -r)
+copy files (cp) and directories (cp -r) to another directory
+easily create new files using a single command (touch)
+
+https://youtu.be/hFiFQcfT9U0  //video on how to install sdkman for windows
+
+https://sdkman.io/install
+
+http://downloads.sourceforge.net/gnuwin32/zip-3.0-setup.exe
+
+sdk install springboot //this installs springboot cli tool
+
+{ https://docs.spring.io/spring-boot/docs/current/reference/html/getting-started.html#getting-started.installing
+
+https://stackoverflow.com/questions/45392965/sdk-command-is-not-found-is-coming-the-terminal
+
+https://linuxhint.com/simple-guide-to-create-open-edit-bash-profile/  //how to edit your bash profile
+
+export SDKMAN_DIR="$HOME/.sdkman"
+[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+} //how to get your sdkman to run properly with gitbash
+
+https://link.springer.com/content/pdf/bbm:978-1-4842-3676-5/1.pdf
+
+sdk install java //get the most upto date java
+
+unzip your_zip_file.zip
+
+spring init --list //documentation on initializing spring.io
+
+spring init -d=web,security,data-mongodb,lombok -g=com.logic -name=YoutubeTestCliTerminal --build=maven -x
+
+sdk ls springboot //command shows you all the springboot versions
+
+sdk ls java //command shows you the versions of java
